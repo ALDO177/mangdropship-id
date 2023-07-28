@@ -15,8 +15,8 @@ export default function Footers(props: any) {
                         <div className="footer-content-column">
                             <div className="footer-logo">
                                 <a className="footer-logo-link" href="#">
-                                    <span className="hidden-link-text">LOGO</span>
-                                    <Image src="/logo-mang.png" height={200} width={200} alt="" />
+                                    <span className="hidden-link-text">LOGOS</span>
+                                    <Image src="/logo-mang.png" height={40} width={200} alt="" />
                                 </a>
                             </div>
                             <div className="footer-menu">
