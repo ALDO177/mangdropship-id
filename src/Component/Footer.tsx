@@ -1,6 +1,7 @@
 
 import LogoMang from '@/assets/logo-mang.png';
 import React from "react";
+import Image from 'next/image';
 
 export default function Footers(props: any) {
     return (
@@ -15,7 +16,7 @@ export default function Footers(props: any) {
                             <div className="footer-logo">
                                 <a className="footer-logo-link" href="#">
                                     <span className="hidden-link-text">LOGO</span>
-                                    <img src="/logo-mang.png" width={200} alt="" />
+                                    <Image src="/logo-mang.png" height={200} width={200} alt="" />
                                 </a>
                             </div>
                             <div className="footer-menu">
@@ -86,7 +87,7 @@ export default function Footers(props: any) {
                         </div>
                         <div className="footer-content-column">
                             <div className="footer-call-to-action">
-                                <h2 className="footer-call-to-action-title"> Let's Chat</h2>
+                                <h2 className="footer-call-to-action-title"> Lets Chat</h2>
                                 <p className="footer-call-to-action-description"> Have a support question?</p>
                                 <a className="footer-call-to-action-button button" href="#" target="_self"> Get in Touch </a>
                             </div>

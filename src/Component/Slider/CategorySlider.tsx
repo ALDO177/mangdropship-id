@@ -97,7 +97,7 @@ export default function CategorySlider() {
                 <SplideTrack>
                     {
                         ArrayTestCateogry.map((values, idx) => (
-                            <SplideSlide>
+                            <SplideSlide key={idx}>
                                 <a href="#">
                                     <BsCard key={idx} className="border-0 shadow-sm">
                                         <BsCard.Body style={{ height: '95px' }}>
